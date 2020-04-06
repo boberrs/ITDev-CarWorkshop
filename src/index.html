@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Car Workshop</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.219/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.219/styles/kendo.default.min.css" />
+	<script src="https://kendo.cdn.telerik.com/2020.1.219/js/kendo.all.min.js"></script>
+</head>
+<body>
+	<style>
+		#container {
+			overflow: auto;
+			width: 1000px;
+			height: 500px;
+			margin: 40px 0;
+		}
+		#specification {
+			width: 300px;
+			height: 400px;
+			float: left;
+		}
+		#grid {
+			height: 300px;
+		}
+		#numberOfParts {
+			height: 100px;
+			line-height: 100px;
+			padding-left: 5px;
+			border: 1px solid #c0c0d0;
+		}
+		#photo {
+			width: 600px;
+			height: 400px;
+			float: left;
+			margin-right: 20px;
+		}
+	</style>
+	<div id="brand"></div>
+	<div id="model"></div>
+	<div id="container">
+		<img id="photo" src="https://previews.123rf.com/images/sldesign1/sldesign11404/sldesign1140400019/27904941-car-outline-vector-illustration.jpg" alt="Choose brand and model for preview"></img>
+		<div id="specification">
+			<div id="grid"></div>
+			<div id="numberOfParts"></div>
+		</div>
+	</div>
+</body>
+</html>
